@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.2.32:9300
+      cluster-name: elasticsearch
+
+
+
+# 日志配置
+logging:
+  level:
+    com.example.demo: debug
+    org.springframework: warn
